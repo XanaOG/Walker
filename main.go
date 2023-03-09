@@ -47,7 +47,7 @@ func main() {
 		fmt.Println(strings.Repeat("-", 65))
 		fmt.Printf("%-10s %-15s %-20s %-15s\n", "TOTAL", sum(lineCount), sum(charCount), sum(fileCount))
 		fmt.Printf("\nhttps://github.com/XanaOG/Walker\n")
-  fmt.Printf("Please do not claim that you made the tool.\n")
+       fmt.Printf("Please do not claim that you made the tool.\n")
 	}
 }
 
