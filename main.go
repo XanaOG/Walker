@@ -24,7 +24,7 @@ func main() {
 		}
 		ext := strings.ToLower(filepath.Ext(path))
 		switch ext {
-		case ".go", ".py", ".js", ".njs", ".tfx", ".itl", ".json", ".ini", ".key", ".md", ".toml": // add other file extensions as desired
+		case ".go", ".py", ".js", ".njs", ".tfx", ".itl", ".json", ".ini", ".key", ".md", ".toml", ".mod": // add other file extensions as desired
 			b, err := ioutil.ReadFile(path)
 			if err != nil {
 				return err
@@ -47,7 +47,7 @@ func main() {
 		fmt.Println(strings.Repeat("-", 65))
 		fmt.Printf("%-10s %-15s %-20s %-15s\n", "TOTAL", sum(lineCount), sum(charCount), sum(fileCount))
 		fmt.Printf("\nhttps://github.com/XanaOG/Walker\n")
-       fmt.Printf("Please do not claim that you made the tool, or attempt to sell it.\n")
+		fmt.Printf("Please do not claim that you made this tool, or attempt to sell it.\n")
 	}
 }
 
