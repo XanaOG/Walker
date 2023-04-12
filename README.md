@@ -1,4 +1,4 @@
 # Walker
 A program that finds the number of total lines, files-per-type, and characters with customizable file extensions.
-
-![image](https://user-images.githubusercontent.com/81060842/226216035-d9482f96-3ac7-4b17-bd35-f4cee7b65bf0.png)
+# Showcase
+![image](https://user-images.githubusercontent.com/81060842/231532350-e010082a-cc89-4123-b3b8-ef449c72715d.png)
