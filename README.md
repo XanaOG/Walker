@@ -167,7 +167,7 @@ go run main.go [flags]
 
 ### Table Format
 ```
- Walker - Advanced Code Analysis Tool
+Walker - Code Analysis Tool
 Analyzing codebase at: .
 
  Code Analysis Results
@@ -197,7 +197,6 @@ TOTAL           34       7046     5111       770     1165   205795      200     
    Avg Lines/Function: 25.6
 
  https://github.com/XanaOG/Walker
-   Enhanced by AI - Please respect the original author
 ```
 
 ### JSON Format
